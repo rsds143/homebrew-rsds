@@ -15,8 +15,8 @@ class AstraCli < Formula
 
   desc "Command line automation for DataStax Astra"
   homepage "https://github.com/rsds143/astra-cli"
-  url "https://github.com/rsds143/astra-cli/archive/refs/tags/v0.3.3.tar.gz"
-  sha256 "39a2bef4371c00d20b912e8e6eb12c7187cc67617fe6bf0f051f97350fbd51a7"
+  url "https://github.com/rsds143/astra-cli/archive/refs/tags/v0.3.4.tar.gz"
+  sha256 "fd863fbc91d0c0cf66991bd23fe3fcd232f96987ef113c591b415c686097e530"
   license "Apache-2.0"
   depends_on "go@1.16"
   def install
