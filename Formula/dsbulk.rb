@@ -4,6 +4,7 @@ class Dsbulk < Formula
   homepage "https://github.com/datastax/dsbulk"
   url "https://github.com/datastax/dsbulk/releases/download/1.8.0/dsbulk-1.8.0.tar.gz"
   sha256 "32cad3c94728289dae314d47dd484fa4f418bcaf8fcebe591bf9cfaa2fe56ed5"
+  sha256 "50ce1f742bcd351d0de3a7e7b9297739944a87d9c2337adaff706c8c89a7bc2b"
   license "Apache-2.0"
   depends_on "openjdk@11"
 
