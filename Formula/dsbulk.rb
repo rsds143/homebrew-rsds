@@ -1,4 +1,4 @@
-class Sperf < Formula
+class Dsbulk < Formula
 
   desc "DataStax Bulk Loader (DSBulk) is an open-source, Apache-licensed, unified tool for loading into and unloading from Apache Cassandra(R), DataStax Astra and DataStax Enterprise (DSE)"
   homepage "https://github.com/datastax/dsbulk"
