@@ -1,4 +1,4 @@
-class NoSQLBench < Formula
+class Nosqlbench < Formula
 
   desc "The open source, pluggable, nosql benchmarking suite."
   homepage "https://github.com/nosqlbench/nosqlbench"
