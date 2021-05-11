@@ -6,7 +6,7 @@ class Dsbulk < Formula
   sha256 "50ce1f742bcd351d0de3a7e7b9297739944a87d9c2337adaff706c8c89a7bc2b"
   license "Apache-2.0"
   depends_on "openjdk@11"
-
+  bottle :unneeded
 
   test do
     #status_output = shell_output("#{bin}/sperf -h", 1)
