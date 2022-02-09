@@ -15,13 +15,13 @@ class AstraCli < Formula
 
   desc "Command line automation for DataStax Astra"
   homepage "https://github.com/rsds143/astra-cli"
-  url "https://github.com/rsds143/astra-cli/archive/refs/tags/v0.3.5.tar.gz"
-  sha256 "b8541de9f4dcba2dcd28810b1a18755e34af68520d2ab205a914ff18b129b580"
+  url "https://github.com/rsds143/astra-cli/archive/refs/tags/v0.5.2.tar.gz"
+  sha256 "81002d7cb9f8842434ef831d939e1e0b240add66c3159983ecee635cc4803a2d"
   license "Apache-2.0"
-  depends_on "go@1.16"
+  depends_on "go@1.17"
   def install
     system "./script/build"
-    bin.install "./bin/astra-cli" => "astra-cli"
+    bin.install "./bin/astra" => "astra"
   end
   test do
     status_output = shell_output("#{bin}/astra-cli -h", 1)
