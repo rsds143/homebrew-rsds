@@ -1,5 +1,7 @@
 # homebrew-rsds
 
+NOTICE: Since I will be no longer working at DataStax and these are all datastax related projects I have decided to archive this repository.
+
 This is the catch all homebrew repository for all of my projects, this is what will exist longer term and the other ones are deprecated.
 
 ## To install
